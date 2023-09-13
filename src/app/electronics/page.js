@@ -25,7 +25,7 @@ const page = () => {
                   <div key={product.url} className="h-full w-full px-4 md:w-1/2 xl:w-1/4">
                     <div className="mb-10 overflow-hidden rounded-lg bg-white shadow-md">
                       <div className="relative">
-                        <Image src={`/Images/products/${product.title}.jpg`} width={200} height={200} alt="product" className="w-full aspect-square" />
+                        <Image src={`/images/products/${product.title}.jpg`} width={200} height={200} alt="product" className="w-full aspect-square" />
                       </div>
                       <div className="px-5 pt-6 pb-8 text-center">
                         <h3 className="text-lg font-semibold text-black hover:text-[#e4a22f] xs:text-xl">
