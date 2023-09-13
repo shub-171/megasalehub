@@ -24,7 +24,7 @@ const ShopByCategory = () => {
                     <div className="w-full px-4 sm:w-1/2 lg:w-1/4">
                         <Link href="/electronics" className="group mb-10 block text-center">
                             <div className="mb-5 overflow-hidden rounded-lg">
-                                <Image src="/Images/products/Boat airdopes.jpg" width={200} height={300} alt="Boat airdopes" className="w-full h-full aspect-[4/5] object-cover" />
+                                <Image src="/images/products/Boat airdopes.jpg" width={200} height={300} alt="Boat airdopes" className="w-full h-full aspect-[4/5] object-cover" />
                             </div>
                             <h3 className="mb-1 text-xl font-semibold text-black group-hover:text-[#e4a22f] md:text-2xl lg:text-xl xl:text-2xl">
                                 Electronics
@@ -35,7 +35,7 @@ const ShopByCategory = () => {
                     <div className="w-full px-4 sm:w-1/2 lg:w-1/4">
                         <Link href="/men" className="group mb-10 block text-center">
                             <div className="mb-5 overflow-hidden rounded-lg">
-                                <Image src="/Images/products/Men formal attire.jpg" width={200} height={300} alt="Men formal attire" className="w-full h-full aspect-[4/5] object-cover" />
+                                <Image src="/images/products/Men formal attire.jpg" width={200} height={300} alt="Men formal attire" className="w-full h-full aspect-[4/5] object-cover" />
                             </div>
                             <h3 className="mb-1 text-xl font-semibold text-black group-hover:text-[#e4a22f] md:text-2xl lg:text-xl xl:text-2xl">
                                 Men
@@ -46,7 +46,7 @@ const ShopByCategory = () => {
                     <div className="w-full px-4 sm:w-1/2 lg:w-1/4">
                         <Link href="/women" className="group mb-10 block text-center">
                             <div className="mb-5 overflow-hidden rounded-lg">
-                                <Image src="/Images/products/Women attire with jacket.jpg" width={200} height={300} alt="Women attire with jacket" className="w-full h-full aspect-[4/5] object-cover" />
+                                <Image src="/images/products/Women attire with jacket.jpg" width={200} height={300} alt="Women attire with jacket" className="w-full h-full aspect-[4/5] object-cover" />
                             </div>
                             <h3 className="mb-1 text-xl font-semibold text-black group-hover:text-[#e4a22f] md:text-2xl lg:text-xl xl:text-2xl">
                                 Women
@@ -57,7 +57,7 @@ const ShopByCategory = () => {
                     <div className="w-full px-4 sm:w-1/2 lg:w-1/4">
                         <Link href="/others" className="group mb-10 block text-center">
                             <div className="mb-5 overflow-hidden rounded-lg">
-                                <Image src="/Images/products/Dream Catcher with Lights.jpg" width={200} height={300} alt="Dream Catcher with Lights" className="w-full h-full aspect-[4/5] object-cover" />
+                                <Image src="/images/products/Dream Catcher with Lights.jpg" width={200} height={300} alt="Dream Catcher with Lights" className="w-full h-full aspect-[4/5] object-cover" />
                             </div>
                             <h3 className="mb-1 text-xl font-semibold text-black group-hover:text-[#e4a22f] md:text-2xl lg:text-xl xl:text-2xl">
                                 Others

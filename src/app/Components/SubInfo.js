@@ -18,29 +18,29 @@ const SubInfo = () => {
               <div className="flex items-center space-x-6 lg:space-x-8">
                 <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                   <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
-                    <Image src="/Images/products/Aahwan Women Mini Dress.jpg" width={100} height={200} alt="Woman fashion mini dress" className="h-full w-full object-cover object-center" />
+                    <Image src="/images/products/Aahwan Women Mini Dress.jpg" width={100} height={200} alt="Woman fashion mini dress" className="h-full w-full object-cover object-center" />
                   </div>
                   <div className="h-64 w-44 overflow-hidden rounded-lg">
-                    <Image src="/Images/sub-fashion-1.jpg" width={100} height={200} alt="Male cool Tshirt" className="h-full w-full object-cover object-center" />
-                  </div>
-                </div>
-                <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                  <div className="h-64 w-44 overflow-hidden rounded-lg">
-                    <Image src="/Images/sub-fashion-2.jpg" width={100} height={200} alt="Male cool Tshirt" className="h-full w-full object-cover object-center" />
-                  </div>
-                  <div className="h-64 w-44 overflow-hidden rounded-lg">
-                    <Image src="/Images/sub-fashion-3.jpg" width={100} height={200} alt="Women denim jacket" className="h-full w-full object-cover object-center" />
-                  </div>
-                  <div className="h-64 w-44 overflow-hidden rounded-lg">
-                    <Image src="/Images/sub-fashion-4.jpg" width={100} height={200} alt="cap" className="h-full w-full object-cover object-center" />
+                    <Image src="/images/sub-fashion-1.jpg" width={100} height={200} alt="Male cool Tshirt" className="h-full w-full object-cover object-center" />
                   </div>
                 </div>
                 <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                   <div className="h-64 w-44 overflow-hidden rounded-lg">
-                    <Image src="/Images/sub-fashion-5.jpg" width={100} height={200} alt="Women shirt" className="h-full w-full object-cover object-center" />
+                    <Image src="/images/sub-fashion-2.jpg" width={100} height={200} alt="Male cool Tshirt" className="h-full w-full object-cover object-center" />
                   </div>
                   <div className="h-64 w-44 overflow-hidden rounded-lg">
-                    <Image src="/Images/sub-fashion-6.jpg" width={100} height={200} alt="Men tshirt" className="h-full w-full object-cover object-center" />
+                    <Image src="/images/sub-fashion-3.jpg" width={100} height={200} alt="Women denim jacket" className="h-full w-full object-cover object-center" />
+                  </div>
+                  <div className="h-64 w-44 overflow-hidden rounded-lg">
+                    <Image src="/images/sub-fashion-4.jpg" width={100} height={200} alt="cap" className="h-full w-full object-cover object-center" />
+                  </div>
+                </div>
+                <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                  <div className="h-64 w-44 overflow-hidden rounded-lg">
+                    <Image src="/images/sub-fashion-5.jpg" width={100} height={200} alt="Women shirt" className="h-full w-full object-cover object-center" />
+                  </div>
+                  <div className="h-64 w-44 overflow-hidden rounded-lg">
+                    <Image src="/images/sub-fashion-6.jpg" width={100} height={200} alt="Men tshirt" className="h-full w-full object-cover object-center" />
                   </div>
                 </div>
               </div>

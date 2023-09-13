@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="flex flex-wrap">
           <div className="w-full px-4 lg:w-8/12">
             <div className="relative mb-8 h-[370px] md:h-[480px]">
-              <Image src="/images/chair.jpg" width={500} height={500} alt="product" className="h-full w-full object-cover object-center" />
+              <Image src="/images/Chair.jpg" width={500} height={500} alt="product" className="h-full w-full object-cover object-center" />
 
               <div className="absolute top-0 left-0 flex h-full w-full items-center px-8 md:px-12">
                 <div className="max-w-[420px]">
@@ -30,7 +30,7 @@ const Hero = () => {
             <div className="flex flex-wrap">
               <div className="w-full px-4 md:w-1/2 lg:w-full">
                 <div className="relative mb-8 h-[223px]">
-                  <Image src="/images/fashion.jpg" width={200} height={200} alt="product" className="h-full w-full object-cover object-center" />
+                  <Image src="/images/Fashion.jpg" width={200} height={200} alt="product" className="h-full w-full object-cover object-center" />
 
                   <div className="absolute top-0 left-0 flex h-full w-full items-end justify-end p-6 sm:p-9">
                     <div className="max-w-[180px] text-right">
