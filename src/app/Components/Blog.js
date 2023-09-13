@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <section className="py-12">
+    <section className="py-14">
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center">
           <div className="w-full px-4">
