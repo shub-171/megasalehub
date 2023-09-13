@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#fafafa" />
         <meta name="description" content="Find a wide selection of discounted Amazon products on Mega Sale Hub. Explore great deals on electronics, fashion, home goods, and more. Click to buy and save money while shopping through our affiliate links!" />
         <meta name="keywords" content="discount Amazon products, deals, savings, affordable shopping, Amazon discounts, online shopping, best deals, exclusive offers, budget shopping, Mega Sale Hub" />
-        <link rel="canonical" href="https://megasalehub.shop" />
+        <link rel="canonical" href="https://www.megasalehub.shop" />
 
         <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
@@ -32,15 +32,15 @@ export default function RootLayout({ children }) {
         <meta property="og:description" content="Find a wide selection of discounted Amazon products on Mega Sale Hub. Explore great deals on electronics, fashion, home goods, and more. Click to buy and save money while shopping through our affiliate links!" />
         <meta property="og:image:width" content="1200"/>
         <meta property="og:image:height" content="630"/>
-        <meta property="og:image" content="/images/opengraph-image.png" />
+        <meta property="og:image" content="https://www.megasalehub.shop/images/opengraph-image.png" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://megasalehub.shop" />
+        <meta property="og:url" content="https://www.megasalehub.shop" />
         <meta property="og:site_name" content="Mega Sale Hub" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Mega Sale Hub | Discounted Products, Deals, and Savings" />
         <meta name="twitter:description" content="Find a wide selection of discounted Amazon products on Mega Sale Hub. Explore great deals on electronics, fashion, home goods, and more. Click to buy and save money while shopping through our affiliate links!" />
-        <meta name="twitter:image" content="/images/twitter-image.png" />
+        <meta name="twitter:image" content="https://www.megasalehub.shop/images/twitter-image.png" />
 
         <meta name="robots" content="index, follow" />
 
