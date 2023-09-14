@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
 
 
         <meta property="og:title" content="Mega Sale Hub - Discounted Amazon Products, Deals, and Savings" />
-        <meta property="og:image" content="/images/opengraph-image.png" />
+        <meta property="og:image:secure_url" content="/images/opengraph-image.png" />
         <meta property="og:url" content="https://www.megasalehub.shop" />
         <meta property="og:description" content="Find a wide selection of discounted Amazon products on Mega Sale Hub. Explore great deals on electronics, fashion, home goods, and more. Click to buy and save money while shopping through our affiliate links!" />
         <meta property="og:site_name" content="Mega Sale Hub" />
@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
         <meta property="twitter:url" content="https://www.megasalehub.shop/" />
         <meta name="twitter:title" content="Mega Sale Hub | Discounted Products, Deals, and Savings" />
         <meta name="twitter:description" content="Find a wide selection of discounted Amazon products on Mega Sale Hub. Explore great deals on electronics, fashion, home goods, and more. Click to buy and save money while shopping through our affiliate links!" />
-        <meta name="twitter:image" content="/images/twitter-image.png" />
+        <meta name="twitter:image:secure_url" content="/images/twitter-image.png" />
 
         <meta name="robots" content="index, follow" />
 
