@@ -3,7 +3,6 @@ import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
-import imageUrl from './images/opengraph-image.png';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -31,7 +30,7 @@ export default function RootLayout({ children }) {
 
 
         <meta property="og:title" content="Mega Sale Hub - Discounted Amazon Products, Deals, and Savings" />
-        <meta property="og:image" content={imageUrl} />
+        <meta property="og:image" content="/images/opengraph-image.png" />
         <meta property="og:url" content="https://www.megasalehub.shop" />
         <meta property="og:description" content="Find a wide selection of discounted Amazon products on Mega Sale Hub. Explore great deals on electronics, fashion, home goods, and more. Click to buy and save money while shopping through our affiliate links!" />
         <meta property="og:site_name" content="Mega Sale Hub" />
