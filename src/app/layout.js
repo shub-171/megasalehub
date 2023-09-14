@@ -3,8 +3,8 @@ import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
-import ogImg from './images/opengraph-image.png';
-import twImg from './images/twitter-image.png';
+import ogImg from './opengraph-image.png';
+import twImg from './twitter-image.png';
 
 const inter = Inter({ subsets: ['latin'] })
 
