@@ -24,11 +24,11 @@ export default function RootLayout({ children }) {
         <meta name="keywords" content="discount Amazon products, deals, savings, affordable shopping, Amazon discounts, online shopping, best deals, exclusive offers, budget shopping, Mega Sale Hub" />
         <link rel="canonical" href="https://www.megasalehub.shop" />
 
-        {/* <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/images/android-chrome-192x192.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/images/android-chrome-512x512.png" /> */}
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/android-chrome-512x512.png" />
 
 
         <meta property="og:title" content="Mega Sale Hub - Discounted Amazon Products, Deals, and Savings" />
