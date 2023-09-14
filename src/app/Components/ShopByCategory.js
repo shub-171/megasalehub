@@ -14,7 +14,7 @@ const ShopByCategory = () => {
                             </h2>
                             <span className="mx-auto mb-4 block h-1 w-24 bg-[#e4a22f]"></span>
                             <p className="text-base text-body-color">
-                                Shop among the varities of products!
+                            Discover a diverse selection of high-quality products and start shopping today for unbeatable deals!
                             </p>
                         </div>
                     </div>

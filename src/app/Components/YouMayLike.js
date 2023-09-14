@@ -16,7 +16,7 @@ const YouMayLike = () => {
                             </h2>
                             <span className="mx-auto mb-4 block h-1 w-24 bg-[#e4a22f]"></span>
                             <p className="text-base text-body-color">
-                            The best products, carefully chosen exclusively for you!
+                            Discover quality products chosen just for you. Start shopping and find items that match your style and needs.
                             </p>
                         </div>
                     </div>
