@@ -3,12 +3,14 @@ import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
+import ogImg from './images/opengraph-image.png';
+import twImg from './images/twitter-image.png';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Mega Sale Hub | Heavy discount is HERE',
-  description: 'Find a wide selection of discounted Amazon products on Mega Sale Hub. Explore great deals on electronics, fashion, home goods, and more. Click to buy and save money while shopping through our affiliate links!',
+  description: 'Discover discounts on Amazon at Mega Sale Hub: Electronics, fashion, home goods, & more! Save while shopping through our affiliate links!',
 }
 
 export default function RootLayout({ children }) {
@@ -18,7 +20,7 @@ export default function RootLayout({ children }) {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#fafafa" />
-        <meta name="description" content="Find a wide selection of discounted Amazon products on Mega Sale Hub. Explore great deals on electronics, fashion, home goods, and more. Click to buy and save money while shopping through our affiliate links!" />
+        <meta name="description" content="Discover discounts on Amazon at Mega Sale Hub: Electronics, fashion, home goods, & more! Save while shopping through our affiliate links!" />
         <meta name="keywords" content="discount Amazon products, deals, savings, affordable shopping, Amazon discounts, online shopping, best deals, exclusive offers, budget shopping, Mega Sale Hub" />
         <link rel="canonical" href="https://www.megasalehub.shop" />
 
@@ -30,9 +32,9 @@ export default function RootLayout({ children }) {
 
 
         <meta property="og:title" content="Mega Sale Hub - Discounted Amazon Products, Deals, and Savings" />
-        <meta property="og:image" content="/images/opengraph-image.png" />
+        <meta property="og:image" content={ogImg} />
         <meta property="og:url" content="https://www.megasalehub.shop" />
-        <meta property="og:description" content="Find a wide selection of discounted Amazon products on Mega Sale Hub. Explore great deals on electronics, fashion, home goods, and more. Click to buy and save money while shopping through our affiliate links!" />
+        <meta property="og:description" content="Discover discounts on Amazon at Mega Sale Hub: Electronics, fashion, home goods, & more! Save while shopping through our affiliate links!" />
         <meta property="og:site_name" content="Mega Sale Hub" />
         <meta property="og:type" content="website" />
         <meta property="og:image:width" content="1200" />
@@ -40,10 +42,10 @@ export default function RootLayout({ children }) {
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="megasalehub.shop" />
-        <meta property="twitter:url" content="https://www.megasalehub.shop/" />
+        <meta property="twitter:url" content="https://www.megasalehub.shop" />
         <meta name="twitter:title" content="Mega Sale Hub | Discounted Products, Deals, and Savings" />
-        <meta name="twitter:description" content="Find a wide selection of discounted Amazon products on Mega Sale Hub. Explore great deals on electronics, fashion, home goods, and more. Click to buy and save money while shopping through our affiliate links!" />
-        <meta name="twitter:image" content="/images/twitter-image.png" />
+        <meta name="twitter:description" content="Discover discounts on Amazon at Mega Sale Hub: Electronics, fashion, home goods, & more! Save while shopping through our affiliate links!" />
+        <meta name="twitter:image" content={twImg} />
 
         <meta name="robots" content="index, follow" />
 
