@@ -3,9 +3,8 @@ import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
-import ogImg from './opengraph-image.png';
-import twImg from './twitter-image.png';
-import favImg from './favicon-img';
+import ogImg from './assets/opengraph-image.png';
+import twImg from './assets/twitter-image.png';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,23 +25,23 @@ export default function RootLayout({ children }) {
         <meta name="keywords" content="discount Amazon products, deals, savings, affordable shopping, Amazon discounts, online shopping, best deals, exclusive offers, budget shopping, Mega Sale Hub" />
         <link rel="canonical" href="https://www.megasalehub.shop" />
 
-        <link rel="apple-touch-icon" sizes="57x57" href="./favicons-img/apple-icon-57x57.png" />
-        <link rel="apple-touch-icon" sizes="60x60" href="./favicons-img/apple-icon-60x60.png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="./favicons-img/apple-icon-72x72.png" />
-        <link rel="apple-touch-icon" sizes="76x76" href="./favicons-img/apple-icon-76x76.png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="./favicons-img/apple-icon-114x114.png" />
-        <link rel="apple-touch-icon" sizes="120x120" href="./favicons-img/apple-icon-120x120.png" />
-        <link rel="apple-touch-icon" sizes="144x144" href="./favicons-img/apple-icon-144x144.png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="./favicons-img/apple-icon-152x152.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="./favicons-img/apple-icon-180x180.png" />
-        <link rel="icon" type="image/png" sizes="192x192" href="./favicons-img/android-icon-192x192.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="./favicons-img/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="96x96" href="./favicons-img/favicon-96x96.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="./favicons-img/favicon-16x16.png" />
-        <link rel="icon" type="image/x-icon" href={favImg.favicon}/>
-        <link rel="manifest" href="./favicons-img/manifest.json" />
+        <link rel="apple-touch-icon" sizes="57x57" href="/favicons-img/apple-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="60x60" href="/favicons-img/apple-icon-60x60.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="/favicons-img/apple-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="/favicons-img/apple-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/favicons-img/apple-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="/favicons-img/apple-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="/favicons-img/apple-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/favicons-img/apple-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons-img/apple-icon-180x180.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/favicons-img/android-icon-192x192.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons-img/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicons-img/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicons-img/favicon-16x16.png" />
+        <link rel="icon" type="image/x-icon" href='/favicon.ico'/>
+        <link rel="manifest" href="/favicons-img/manifest.json" />
         <meta name="msapplication-TileColor" content="#fafafa" />
-        <meta name="msapplication-TileImage" content="./favicons-img/ms-icon-144x144.png" />
+        <meta name="msapplication-TileImage" content="/favicons-img/ms-icon-144x144.png" />
         <meta name="theme-color" content="#fafafa" />
 
 
