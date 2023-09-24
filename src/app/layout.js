@@ -5,10 +5,12 @@ import Header from './Components/Header'
 import Footer from './Components/Footer'
 import ogImg from './opengraph-image.png';
 import twImg from './twitter-image.png';
+import favImg from './favicon-img';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
+  metadataBase: new URL('https://www.megasalehub.shop'),
   title: 'Mega Sale Hub | Heavy discount is HERE',
   description: 'Discover discounts on Amazon at Mega Sale Hub: Electronics, fashion, home goods, & more! Save while shopping through our affiliate links!',
 }
@@ -24,11 +26,24 @@ export default function RootLayout({ children }) {
         <meta name="keywords" content="discount Amazon products, deals, savings, affordable shopping, Amazon discounts, online shopping, best deals, exclusive offers, budget shopping, Mega Sale Hub" />
         <link rel="canonical" href="https://www.megasalehub.shop" />
 
-        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="./android-chrome-192x192.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="./android-chrome-512x512.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="./favicons-img/apple-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="60x60" href="./favicons-img/apple-icon-60x60.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="./favicons-img/apple-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="./favicons-img/apple-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="./favicons-img/apple-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="./favicons-img/apple-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="./favicons-img/apple-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="./favicons-img/apple-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicons-img/apple-icon-180x180.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="./favicons-img/android-icon-192x192.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicons-img/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="./favicons-img/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicons-img/favicon-16x16.png" />
+        <link rel="icon" type="image/x-icon" href={favImg.favicon}/>
+        <link rel="manifest" href="./favicons-img/manifest.json" />
+        <meta name="msapplication-TileColor" content="#fafafa" />
+        <meta name="msapplication-TileImage" content="./favicons-img/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#fafafa" />
 
 
         <meta property="og:title" content="Mega Sale Hub - Discounted Amazon Products, Deals, and Savings" />
@@ -39,7 +54,9 @@ export default function RootLayout({ children }) {
         <meta property="og:type" content="website" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Opengraph Image for MEGASALEHUB" />
 
+        <meta name="twitter:image:alt" content="Twitter Image for MEGASALEHUB" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="megasalehub.shop" />
         <meta property="twitter:url" content="https://www.megasalehub.shop" />
