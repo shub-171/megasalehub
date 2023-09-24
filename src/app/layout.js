@@ -39,11 +39,10 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
         <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-        <link rel="manifest" href="./manifest.json" />
+        <link rel="manifest" href="./manifest.webmanifest" />
         <meta name="msapplication-TileColor" content="#fafafa" />
         <meta name="msapplication-TileImage" content="./ms-icon-144x144.png" />
         <meta name="theme-color" content="#fafafa" />
-
 
         <meta property="og:title" content="Mega Sale Hub - Discounted Amazon Products, Deals, and Savings" />
         <meta property="og:image" content={ogImg} />
